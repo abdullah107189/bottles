@@ -15,4 +15,4 @@ const setLocalStore = (cart) => {
     const stringifyData = JSON.stringify(cart)
     localStorage.setItem('cart', stringifyData)
 }
-export { setDataToArray ,getDat}
+export { setDataToArray ,getDat,setLocalStore}
